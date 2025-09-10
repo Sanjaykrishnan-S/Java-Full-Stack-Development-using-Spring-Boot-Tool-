@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/(exam)/guest/[...params]/page.jsx", "app/(auth)/register/page.jsx", "app/(exam)/super_admin/[superAdminId]/role/page.jsx", "app/(exam)/student/exam/[studentId]/page.jsx", "app/(exam)/staff/studentAssessment/[staffId]/page.jsx", "app/(exam)/staff/studentAssessment/[staffId]/newAssessment/page.jsx", "app/components/utils/Loading.jsx", "app/components/utils/FloatingForm.jsx", "app/components/superAdmin/role/ViewUserAndRole.jsx", "app/components/superAdmin/role/UserAndRoleForm.jsx", "app/components/superAdmin/role/Role.jsx", "app/components/studentQa/ResultAlert.jsx", "app/components/studentQa/QuestionAndAnswerForm.jsx", "app/components/studentQa/QAHome.jsx", "app/components/studentQa/MessageCard.jsx", "app/components/staffQA/ViewAssessment.jsx", "app/components/staffQA/AssessmentForm.jsx", "app/components/guest/Guest.jsx", "app/components/utils/Loading.jsx", "app/components/utils/Header.jsx", "app/data/api.data.js"],
+  "exclude": ["node_modules"]
+}
